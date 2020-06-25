@@ -1,0 +1,66 @@
+h1{
+  font-size:40px;
+  margin: 20px 30px;
+}
+.para1{
+  font-size:20px;
+  margin: 20px 30px;
+}
+.para2{
+  margin: 2px 80px;
+  padding: 10px 5px;
+}
+input[type=text]{
+  width:50%;
+  padding: 10px 5px;
+  margin: 2px 130px;
+  border: 3px solid #ddd;
+  outline: none;
+}
+
+input[list="Symptoms"]{
+  width:50%;
+  padding: 10px 5px;
+  margin: 2px 130px;
+  border: 3px solid #ddd;
+  outline:none;
+}
+input:focus{
+  border: 3px solid #888;
+}
+.Choice{
+  font-size: 15px;
+  margin: 3px 120px; 
+}
+button[type="submit"]{
+  background-color: #9999ff;
+  width: 18%;
+  padding: 9px 0px;
+  border: none;
+  color: white;
+  text-align: center;
+  font-size: 16px;
+  margin: 25px 235px;
+}
+button[type="submit"]:hover {
+  box-shadow: 0 8px 20px 0 rgba(0,0,0,0.3),0 17px 50px 0 rgba(0,0,0,0.15);
+
+}
+.reg_image{
+  background:url('https://img.freepik.com/free-vector/caduceus-medical-symbol-abstract-geometric-with-medicine-science-concept-background_41814-395.jpg?size=626&ext=jpg') no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.intro{
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+}
+.reg_form{
+  position: absolute;
+  top:80%;
+  left:50%;
+  transform: translate(-50%,-50%);
+}
